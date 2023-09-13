@@ -15,7 +15,8 @@ class CUBDataset(datasets.ImageFolder):
                  loader=datasets.folder.default_loader,
                  is_valid_file=None,
                  train=True,
-                 bboxes=False):
+                 bboxes=False,
+                 included_classes=None):
 
         img_root = os.path.join(root, 'images')
 
@@ -32,6 +33,8 @@ class CUBDataset(datasets.ImageFolder):
         self.transform_ = transform
         self.target_transform_ = target_transform
         self.train = train
+
+
         
         # obtain sample ids filtered by split
         path_to_splits = os.path.join(root, 'train_test_split.txt')

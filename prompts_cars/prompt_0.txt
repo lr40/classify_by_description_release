@@ -1,0 +1,26 @@
+Q(1/3): What are characteristic visual features that a car expert might use for recognizing a Toyota Prius(2015) on an image?
+A(1/3): There are several useful visual features characteristic visual features that a car expert might use for recognizing a Toyota Prius(2015) on an image:
+- mid-sized hatchback
+- 5 seats
+- wedge-like design
+- front end being lower and the back end elevated
+- almost continuous slope from the roof to the rear
+- front end is characterized by triangular headlights and a trapezoidal grille
+- rear end is characterized by its split rear window and vertical LED taillights
+- aerodynamic
+- distinctive V-shaped grille
+
+Q(2/3): What are characteristic visual features that a car expert might use for recognizing a Ford Bronco (2021) on an image?
+A(2/3): There are several useful visual features characteristic visual features that a car expert might use for recognizing a Ford Bronco (2021) on an image:
+- SUV
+- ruggedness
+- boxy shape
+- round LED headlights
+- bold grille with "BRONCO" written across.
+- flared fenders
+- strong off-road and adventure-ready vibe
+- can come with removable doors and roof
+
+Q(3/3): What are characteristic visual features that a car expert might use for recognizing a {category_name} on an image?
+A(3/3): There are several useful visual features characteristic visual features that a car expert might use for recognizing a {category_name} on an image:
+-

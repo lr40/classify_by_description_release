@@ -1,0 +1,650 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 53.969621658325195,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 51.86399817466736,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-B/32 top_k_misclassifications": [
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            79.3103448275862
+        ],
+        [
+            "Louisiana_Waterthrush",
+            "Misclassified as: Northern_Waterthrush",
+            76.66666666666667
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            69.23076923076923
+        ],
+        [
+            "Anna_Hummingbird",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            63.333333333333336
+        ],
+        [
+            "Artic_Tern",
+            "Misclassified as: Common_Tern",
+            62.06896551724138
+        ],
+        [
+            "Eared_Grebe",
+            "Misclassified as: Horned_Grebe",
+            60.0
+        ],
+        [
+            "Baltimore_Oriole",
+            "Misclassified as: Orchard_Oriole",
+            60.0
+        ],
+        [
+            "Bronzed_Cowbird",
+            "Misclassified as: Shiny_Cowbird",
+            53.333333333333336
+        ],
+        [
+            "Western_Gull",
+            "Misclassified as: California_Gull",
+            53.333333333333336
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: Sage_Thrasher",
+            53.333333333333336
+        ],
+        [
+            "Whip_poor_Will",
+            "Misclassified as: Nighthawk",
+            52.63157894736842
+        ],
+        [
+            "Yellow_bellied_Flycatcher",
+            "Misclassified as: Acadian_Flycatcher",
+            51.724137931034484
+        ],
+        [
+            "Kentucky_Warbler",
+            "Misclassified as: Common_Yellowthroat",
+            48.275862068965516
+        ],
+        [
+            "Blue_winged_Warbler",
+            "Misclassified as: Golden_winged_Warbler",
+            46.666666666666664
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Parakeet_Auklet",
+            45.45454545454545
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Rhinoceros_Auklet",
+            43.47826086956522
+        ],
+        [
+            "Heermann_Gull",
+            "Misclassified as: California_Gull",
+            43.333333333333336
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Rhinoceros_Auklet",
+            42.857142857142854
+        ],
+        [
+            "Least_Flycatcher",
+            "Misclassified as: Acadian_Flycatcher",
+            41.37931034482759
+        ],
+        [
+            "Lincoln_Sparrow",
+            "Misclassified as: Henslow_Sparrow",
+            41.37931034482759
+        ],
+        [
+            "Philadelphia_Vireo",
+            "Misclassified as: White_eyed_Vireo",
+            41.37931034482759
+        ],
+        [
+            "Spotted_Catbird",
+            "Misclassified as: Green_Jay",
+            40.0
+        ],
+        [
+            "Heermann_Gull",
+            "Misclassified as: Red_legged_Kittiwake",
+            40.0
+        ],
+        [
+            "Sayornis",
+            "Misclassified as: Olive_sided_Flycatcher",
+            40.0
+        ],
+        [
+            "Great_Grey_Shrike",
+            "Misclassified as: Loggerhead_Shrike",
+            40.0
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Henslow_Sparrow",
+            40.0
+        ],
+        [
+            "Wilson_Warbler",
+            "Misclassified as: Kentucky_Warbler",
+            40.0
+        ],
+        [
+            "Scott_Oriole",
+            "Misclassified as: Hooded_Oriole",
+            36.666666666666664
+        ],
+        [
+            "Forsters_Tern",
+            "Misclassified as: Elegant_Tern",
+            36.666666666666664
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            35.0
+        ]
+    ],
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 58.11184048652649,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 55.919915437698364,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-B/16 top_k_misclassifications": [
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            89.65517241379311
+        ],
+        [
+            "Whip_poor_Will",
+            "Misclassified as: Nighthawk",
+            78.94736842105263
+        ],
+        [
+            "Mourning_Warbler",
+            "Misclassified as: Nashville_Warbler",
+            73.33333333333333
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            73.07692307692308
+        ],
+        [
+            "Ringed_Kingfisher",
+            "Misclassified as: Belted_Kingfisher",
+            70.0
+        ],
+        [
+            "Prairie_Warbler",
+            "Misclassified as: Cape_May_Warbler",
+            70.0
+        ],
+        [
+            "Red_eyed_Vireo",
+            "Misclassified as: Black_capped_Vireo",
+            63.333333333333336
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Sooty_Albatross",
+            60.0
+        ],
+        [
+            "Western_Gull",
+            "Misclassified as: California_Gull",
+            56.666666666666664
+        ],
+        [
+            "Brandt_Cormorant",
+            "Misclassified as: Pelagic_Cormorant",
+            55.172413793103445
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: Cactus_Wren",
+            53.333333333333336
+        ],
+        [
+            "Tennessee_Warbler",
+            "Misclassified as: Orange_crowned_Warbler",
+            48.275862068965516
+        ],
+        [
+            "Anna_Hummingbird",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            46.666666666666664
+        ],
+        [
+            "Common_Tern",
+            "Misclassified as: Artic_Tern",
+            46.666666666666664
+        ],
+        [
+            "Northern_Waterthrush",
+            "Misclassified as: Louisiana_Waterthrush",
+            46.666666666666664
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Savannah_Sparrow",
+            45.0
+        ],
+        [
+            "Long_tailed_Jaeger",
+            "Misclassified as: Pomarine_Jaeger",
+            43.333333333333336
+        ],
+        [
+            "Henslow_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            43.333333333333336
+        ],
+        [
+            "Elegant_Tern",
+            "Misclassified as: Caspian_Tern",
+            43.333333333333336
+        ],
+        [
+            "Blue_headed_Vireo",
+            "Misclassified as: Black_capped_Vireo",
+            43.333333333333336
+        ],
+        [
+            "Yellow_bellied_Flycatcher",
+            "Misclassified as: Acadian_Flycatcher",
+            41.37931034482759
+        ],
+        [
+            "Red_faced_Cormorant",
+            "Misclassified as: Pelagic_Cormorant",
+            40.90909090909091
+        ],
+        [
+            "Olive_sided_Flycatcher",
+            "Misclassified as: Western_Wood_Pewee",
+            40.0
+        ],
+        [
+            "Eared_Grebe",
+            "Misclassified as: Horned_Grebe",
+            40.0
+        ],
+        [
+            "Ring_billed_Gull",
+            "Misclassified as: California_Gull",
+            40.0
+        ],
+        [
+            "Florida_Jay",
+            "Misclassified as: Blue_Jay",
+            40.0
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: Sage_Thrasher",
+            40.0
+        ],
+        [
+            "Summer_Tanager",
+            "Misclassified as: Scarlet_Tanager",
+            40.0
+        ],
+        [
+            "White_eyed_Vireo",
+            "Misclassified as: Yellow_throated_Vireo",
+            40.0
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Least_Auklet",
+            39.130434782608695
+        ]
+    ],
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 63.94546031951904,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 62.85812854766846,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14 top_k_misclassifications": [
+        [
+            "Heermann_Gull",
+            "Misclassified as: California_Gull",
+            96.66666666666667
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Whip_poor_Will",
+            "Misclassified as: Nighthawk",
+            89.47368421052632
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Least_Auklet",
+            86.95652173913044
+        ],
+        [
+            "Western_Gull",
+            "Misclassified as: California_Gull",
+            86.66666666666667
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            86.20689655172414
+        ],
+        [
+            "Brandt_Cormorant",
+            "Misclassified as: Pelagic_Cormorant",
+            82.75862068965517
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Sooty_Albatross",
+            80.0
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            75.0
+        ],
+        [
+            "Philadelphia_Vireo",
+            "Misclassified as: Warbling_Vireo",
+            72.41379310344827
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: Cactus_Wren",
+            70.0
+        ],
+        [
+            "Henslow_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            70.0
+        ],
+        [
+            "Louisiana_Waterthrush",
+            "Misclassified as: Northern_Waterthrush",
+            70.0
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Least_Auklet",
+            66.66666666666667
+        ],
+        [
+            "White_breasted_Kingfisher",
+            "Misclassified as: Green_Kingfisher",
+            66.66666666666667
+        ],
+        [
+            "Great_Grey_Shrike",
+            "Misclassified as: Loggerhead_Shrike",
+            66.66666666666667
+        ],
+        [
+            "Yellow_billed_Cuckoo",
+            "Misclassified as: Black_billed_Cuckoo",
+            65.51724137931035
+        ],
+        [
+            "Harris_Sparrow",
+            "Misclassified as: Henslow_Sparrow",
+            60.0
+        ],
+        [
+            "Gray_Kingbird",
+            "Misclassified as: Tropical_Kingbird",
+            58.62068965517241
+        ],
+        [
+            "Fish_Crow",
+            "Misclassified as: American_Crow",
+            56.666666666666664
+        ],
+        [
+            "Yellow_bellied_Flycatcher",
+            "Misclassified as: Acadian_Flycatcher",
+            55.172413793103445
+        ],
+        [
+            "Golden_winged_Warbler",
+            "Misclassified as: Tennessee_Warbler",
+            51.724137931034484
+        ],
+        [
+            "Cerulean_Warbler",
+            "Misclassified as: Black_throated_Blue_Warbler",
+            50.0
+        ],
+        [
+            "Red_eyed_Vireo",
+            "Misclassified as: Warbling_Vireo",
+            46.666666666666664
+        ],
+        [
+            "Lincoln_Sparrow",
+            "Misclassified as: Song_Sparrow",
+            44.827586206896555
+        ],
+        [
+            "Artic_Tern",
+            "Misclassified as: Common_Tern",
+            44.827586206896555
+        ],
+        [
+            "Scott_Oriole",
+            "Misclassified as: Orchard_Oriole",
+            43.333333333333336
+        ],
+        [
+            "Sayornis",
+            "Misclassified as: Olive_sided_Flycatcher",
+            43.333333333333336
+        ],
+        [
+            "Nelson_Sharp_tailed_Sparrow",
+            "Misclassified as: Seaside_Sparrow",
+            43.333333333333336
+        ],
+        [
+            "Forsters_Tern",
+            "Misclassified as: Common_Tern",
+            43.333333333333336
+        ]
+    ],
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 64.86020088195801,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 63.151538372039795,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14@336px top_k_misclassifications": [
+        [
+            "Heermann_Gull",
+            "Misclassified as: California_Gull",
+            96.66666666666667
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Least_Auklet",
+            95.65217391304348
+        ],
+        [
+            "Whip_poor_Will",
+            "Misclassified as: Nighthawk",
+            94.73684210526316
+        ],
+        [
+            "Western_Gull",
+            "Misclassified as: California_Gull",
+            90.0
+        ],
+        [
+            "Brandt_Cormorant",
+            "Misclassified as: Pelagic_Cormorant",
+            86.20689655172414
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            79.3103448275862
+        ],
+        [
+            "Louisiana_Waterthrush",
+            "Misclassified as: Northern_Waterthrush",
+            73.33333333333333
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Sooty_Albatross",
+            70.0
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            70.0
+        ],
+        [
+            "Yellow_billed_Cuckoo",
+            "Misclassified as: Black_billed_Cuckoo",
+            65.51724137931035
+        ],
+        [
+            "Artic_Tern",
+            "Misclassified as: Common_Tern",
+            65.51724137931035
+        ],
+        [
+            "Philadelphia_Vireo",
+            "Misclassified as: Warbling_Vireo",
+            65.51724137931035
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: Cactus_Wren",
+            63.333333333333336
+        ],
+        [
+            "Blue_winged_Warbler",
+            "Misclassified as: Wilson_Warbler",
+            63.333333333333336
+        ],
+        [
+            "Yellow_bellied_Flycatcher",
+            "Misclassified as: Acadian_Flycatcher",
+            62.06896551724138
+        ],
+        [
+            "Nelson_Sharp_tailed_Sparrow",
+            "Misclassified as: Seaside_Sparrow",
+            60.0
+        ],
+        [
+            "Gray_Kingbird",
+            "Misclassified as: Tropical_Kingbird",
+            58.62068965517241
+        ],
+        [
+            "Golden_winged_Warbler",
+            "Misclassified as: Tennessee_Warbler",
+            58.62068965517241
+        ],
+        [
+            "Kentucky_Warbler",
+            "Misclassified as: Tennessee_Warbler",
+            58.62068965517241
+        ],
+        [
+            "Great_Grey_Shrike",
+            "Misclassified as: Loggerhead_Shrike",
+            56.666666666666664
+        ],
+        [
+            "Henslow_Sparrow",
+            "Misclassified as: Grasshopper_Sparrow",
+            56.666666666666664
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Least_Auklet",
+            55.55555555555556
+        ],
+        [
+            "Slaty_backed_Gull",
+            "Misclassified as: Western_Gull",
+            50.0
+        ],
+        [
+            "Harris_Sparrow",
+            "Misclassified as: Henslow_Sparrow",
+            50.0
+        ],
+        [
+            "Olive_sided_Flycatcher",
+            "Misclassified as: Western_Wood_Pewee",
+            46.666666666666664
+        ],
+        [
+            "Scott_Oriole",
+            "Misclassified as: Orchard_Oriole",
+            46.666666666666664
+        ],
+        [
+            "Glaucous_winged_Gull",
+            "Misclassified as: California_Gull",
+            44.827586206896555
+        ],
+        [
+            "Fish_Crow",
+            "Misclassified as: Common_Raven",
+            43.333333333333336
+        ],
+        [
+            "Eared_Grebe",
+            "Misclassified as: Horned_Grebe",
+            43.333333333333336
+        ]
+    ]
+}

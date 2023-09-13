@@ -9,6 +9,8 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/main.py",
+            "args": ["--batch_size", "640","--descriptor_fname","descriptors_cars_prompt0_run_0.json","--eval_fname","eval_tmp","--eval_dir","debug","--model_size","ViT-B/32",
+            "--device", "cuda:3","--already_complete_descriptors","0","--xxx","0"],
             "console": "integratedTerminal",
             "justMyCode": true
         },

@@ -1,0 +1,107 @@
+{
+    "Chuck_will_Widow": [
+        "large, dark-colored bird",
+        "glossy black plumage",
+        "distinctive white patch on the forehead",
+        "long, broad tail with white outer feathers",
+        "yellow cere (nose patch)",
+        "dark brown eyes",
+        "dark legs and webbed feet"
+    ],
+    "Anna_Hummingbird": [
+        "small, iridescent green back",
+        "purple throat patch",
+        "white belly and undertail coverts",
+        "dark brown tail with white outer feathers",
+        "dark brown wings with white tips",
+        "bright red bill",
+        "dark brown eyes",
+        "long, slender, dark brown tail",
+        "legs and feet are bright red"
+    ],
+    "Ruby_throated_Hummingbird": [
+        "small, iridescent green back",
+        "purple throat patch",
+        "white belly",
+        "white outer tail feathers",
+        "black stripe above the bill",
+        "black bill with pink base",
+        "dark brown eyes",
+        "long, slender, dark-tipped bill",
+        "greenish-black legs and feet"
+    ],
+    "Nighthawk": [
+        "large, broad wings",
+        "dark brown to blackish plumage",
+        "distinctive white underside of the wings and tail",
+        "large, dark eyes",
+        "long, pointed tail",
+        "long, pointed wings",
+        "dark brown to blackish legs and feet",
+        "distinctive white underside of the wings and tail"
+    ],
+    "Artic_Tern": [
+        "small to medium-sized tern",
+        "dark grey upperparts",
+        "white underparts",
+        "dark grey to blackish wings with white tips",
+        "blackish bill with red spot",
+        "dark brown eyes",
+        "pale yellow legs and webbed feet",
+        "foraging in the water, it has a distinctive white patch on the forehead"
+    ],
+    "Common_Tern": [
+        "slender, agile seabird",
+        "dark grey upperparts",
+        "white underparts",
+        "pale yellow-green bill",
+        "dark grey legs and webbed feet",
+        "dark eye stripe",
+        "pale yellow-green patch on the forehead",
+        "dark grey wings with white tips",
+        "dark grey tail with white outer feathers"
+    ],
+    "Northern_Waterthrush": [
+        "large, plump warbler",
+        "dark grey-brown upperparts",
+        "pale yellow-green upperparts",
+        "white undersides",
+        "yellow-green legs and feet",
+        "dark-centred, pale-edged wing-coverts",
+        "dark-centred, pale-edged tail-feathers",
+        "dark brown eyes",
+        "dark brown bill with dark grey base"
+    ],
+    "Louisiana_Waterthrush": [
+        "large, dark-colored warbler",
+        "dark grey-brown back and wings",
+        "white underside with dark streaks",
+        "yellow-green upperparts",
+        "yellowish-white face and breast",
+        "dark-centred, pale yellowish-brown eye stripe",
+        "dark legs and feet"
+    ],
+    "American_Three_toed_Woodpecker": [
+        "medium-sized woodpecker",
+        "black and white striped back",
+        "red crown and nape",
+        "white underside",
+        "black stripes on the sides of the neck and back",
+        "white wing patches",
+        "black legs and feet",
+        "distinctive three toes on each foot",
+        "black bill with a red spot near the base",
+        "yellowish-white face"
+    ],
+    "Red_cockaded_Woodpecker": [
+        "small woodpecker",
+        "red cap on the head",
+        "white stripe above the eye",
+        "black stripe below the eye",
+        "white underside",
+        "black back and wings",
+        "red underwing patch",
+        "black legs and feet",
+        "distinctive red crest on the head"
+    ]
+}

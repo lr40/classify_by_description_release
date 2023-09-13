@@ -1,0 +1,42 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 53.969621658325195,
+        "Total Description-based Top-5 Accuracy: ": 84.22505855560303,
+        "Total CLIP-Standard Top-1 Accuracy: ": 51.86399817466736,
+        "Total CLIP-Standard Top-5 Accuracy: ": 81.94684386253357,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 58.12910199165344,
+        "Total Description-based Top-5 Accuracy: ": 86.96928024291992,
+        "Total CLIP-Standard Top-1 Accuracy: ": 55.93717694282532,
+        "Total CLIP-Standard Top-5 Accuracy: ": 83.91439318656921,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 63.89368176460266,
+        "Total Description-based Top-5 Accuracy: ": 92.19882488250732,
+        "Total CLIP-Standard Top-1 Accuracy: ": 62.85812854766846,
+        "Total CLIP-Standard Top-5 Accuracy: ": 90.68001508712769,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 64.94649648666382,
+        "Total Description-based Top-5 Accuracy: ": 92.11252927780151,
+        "Total CLIP-Standard Top-1 Accuracy: ": 63.237833976745605,
+        "Total CLIP-Standard Top-5 Accuracy: ": 90.55919647216797,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    }
+}

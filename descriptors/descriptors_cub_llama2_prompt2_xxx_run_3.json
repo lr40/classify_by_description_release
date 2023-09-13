@@ -1,0 +1,44 @@
+{
+    "Chuck_will_Widow": [
+        "large, dark-colored bird",
+        "glossy black plumage",
+        "distinctive white patch on the forehead",
+        "long, broad tail with white outer feathers",
+        "yellow cere (nose patch)",
+        "dark brown eyes",
+        "dark legs and webbed feet"
+    ],
+    "Nighthawk": [
+        "large, broad wings",
+        "dark brown to blackish plumage",
+        "distinctive white underside of the wings and tail",
+        "large, dark eyes",
+        "long, pointed tail",
+        "long, pointed wings",
+        "dark brown to blackish legs and feet",
+        "distinctive white underside of the wings and tail"
+    ],
+    "American_Three_toed_Woodpecker": [
+        "medium-sized woodpecker",
+        "black and white striped back",
+        "red crown and nape",
+        "white underside",
+        "black stripes on the sides of the neck and back",
+        "white wing patches",
+        "black legs and feet",
+        "distinctive three toes on each foot",
+        "black bill with a red spot near the base",
+        "yellowish-white face"
+    ],
+    "Red_cockaded_Woodpecker": [
+        "small woodpecker",
+        "red cap on the head",
+        "white stripe above the eye",
+        "black stripe below the eye",
+        "white underside",
+        "black back and wings",
+        "red underwing patch",
+        "black legs and feet",
+        "distinctive red crest on the head"
+    ]
+}

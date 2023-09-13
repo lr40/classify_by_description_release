@@ -1,0 +1,130 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 47.61904776096344,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 36.19047701358795,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_xxx_run_3"
+        ]
+    },
+    "ViT-B/32 top_k_misclassifications": [
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            86.20689655172414
+        ],
+        [
+            "Nighthawk",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            6.666666666666667
+        ],
+        [
+            "American_Three_toed_Woodpecker",
+            "Misclassified as: Nighthawk",
+            5.0
+        ]
+    ],
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 47.61904776096344,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 38.0952388048172,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/descriptors_cub_llama2_prompt2_xxx_run_3"
+        ]
+    },
+    "ViT-B/16 top_k_misclassifications": [
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            100.0
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            3.8461538461538463
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            0.0
+        ]
+    ],
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 51.428574323654175,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 44.76190507411957,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub_llama2_prompt2_xxx_run_3"
+        ]
+    },
+    "ViT-L/14 top_k_misclassifications": [
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            100.0
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            86.20689655172414
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            0.0
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            0.0
+        ]
+    ],
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 51.428574323654175,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 47.61904776096344,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/descriptors_cub_llama2_prompt2_xxx_run_3"
+        ]
+    },
+    "ViT-L/14@336px top_k_misclassifications": [
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Nighthawk",
+            100.0
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            82.75862068965517
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            0.0
+        ],
+        [
+            "Chuck_will_Widow",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            0.0
+        ]
+    ]
+}

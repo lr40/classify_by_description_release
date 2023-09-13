@@ -39,39 +39,43 @@ def load_gpt_descriptions(hparams, classes_to_load=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     unmodify_dict = {}
     
-    
-    if classes_to_load is not None: 
-        gpt_descriptions = {c: gpt_descriptions_unordered[c] for c in classes_to_load}
-    else:
-        gpt_descriptions = gpt_descriptions_unordered
-    if hparams['category_name_inclusion'] is not None:
-        if classes_to_load is not None:
-            keys_to_remove = [k for k in gpt_descriptions.keys() if k not in classes_to_load]
-            for k in keys_to_remove:
-                print(f"Skipping descriptions for \"{k}\", not in classes to load")
-                gpt_descriptions.pop(k)
-            
-        for i, (k, v) in enumerate(gpt_descriptions.items()):
-            if len(v) == 0:
-                v = ['']
-            
-            
-            word_to_add = wordify(k)
-            
-            if (hparams['category_name_inclusion'] == 'append'):
-                build_descriptor_string = lambda item: f"{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['between_text']}{word_to_add}"
-            elif (hparams['category_name_inclusion'] == 'prepend'):
-                build_descriptor_string = lambda item: f"{hparams['before_text']}{word_to_add}{hparams['between_text']}{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['after_text']}"
-            else:
-                build_descriptor_string = lambda item: modify_descriptor(item, hparams['apply_descriptor_modification'])
-            
-            unmodify_dict[k] = {build_descriptor_string(item): item for item in v}
+    if bool(hparams['already_complete_descriptors']) is False:
+        if classes_to_load is not None: 
+            gpt_descriptions = {c: gpt_descriptions_unordered[c] for c in classes_to_load}
+        else:
+            gpt_descriptions = gpt_descriptions_unordered
+        if hparams['category_name_inclusion'] is not None:
+            if classes_to_load is not None:
+                keys_to_remove = [k for k in gpt_descriptions.keys() if k not in classes_to_load]
+                for k in keys_to_remove:
+                    print(f"Skipping descriptions for \"{k}\", not in classes to load")
+                    gpt_descriptions.pop(k)
                 
-            gpt_descriptions[k] = [build_descriptor_string(item) for item in v]
-            
-            # print an example the first time
-            if i == 0: #verbose and 
-                print(f"\nExample description for class {k}: \"{gpt_descriptions[k][0]}\"\n")
+            for i, (k, v) in enumerate(gpt_descriptions.items()):
+                if len(v) == 0:
+                    v = ['']
+                
+                
+                word_to_add = wordify(k)
+                
+                if (hparams['category_name_inclusion'] == 'append'):
+                    build_descriptor_string = lambda item: f"{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['between_text']}{word_to_add}"
+                elif (hparams['category_name_inclusion'] == 'prepend'):
+                    build_descriptor_string = lambda item: f"{hparams['before_text']}{word_to_add}{hparams['between_text']}{modify_descriptor(item, hparams['apply_descriptor_modification'])}{hparams['after_text']}"
+                else:
+                    build_descriptor_string = lambda item: modify_descriptor(item, hparams['apply_descriptor_modification'])
+                
+                unmodify_dict[k] = {build_descriptor_string(item): item for item in v}
+                    
+                gpt_descriptions[k] = [build_descriptor_string(item) for item in v]
+                
+                # print an example the first time
+                if i == 0: #verbose and 
+                    print(f"\nExample description for class {k}: \"{gpt_descriptions[k][0]}\"\n")
+
+    if bool(hparams['already_complete_descriptors']) is True:
+        gpt_descriptions = gpt_descriptions_unordered
+
     return gpt_descriptions, unmodify_dict
 
 

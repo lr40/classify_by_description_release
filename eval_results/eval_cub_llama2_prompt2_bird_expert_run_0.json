@@ -1,0 +1,38 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 6.976744532585144,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 9.302325546741486,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    }
+}[
+    [
+        "Sooty_Albatross",
+        "Misclassified as: Painted_Bunting",
+        92.85714285714286
+    ],
+    [
+        "Laysan_Albatross",
+        "Misclassified as: Groove_billed_Ani",
+        63.333333333333336
+    ],
+    [
+        "Black_footed_Albatross",
+        "Misclassified as: Sooty_Albatross",
+        50.0
+    ],
+    [
+        "Black_footed_Albatross",
+        "Misclassified as: Long_tailed_Jaeger",
+        10.714285714285714
+    ],
+    [
+        "Laysan_Albatross",
+        "Misclassified as: American_Crow",
+        10.0
+    ]
+]

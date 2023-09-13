@@ -1,0 +1,27 @@
+Q: What are characteristic visual features that a bird expert might use for distinguishing a Muscovy Duck in the field?
+A: There are several useful visual features characteristic visual features that a bird expert might use for distinguishing a Muscovy Duck in the field:
+- large, heavy-bodied duck
+- black plumage with conspicuous white wing patch
+- green metallic gloss on the upperwing
+- black bill with blackish or dark red knob at the base
+- bare red facial skin
+- upperparts are dark greyish-brown with slightly darker flight feathers
+- yellow-ish brown eyes
+- blackish legs and webbed feet
+- webbed feet
+
+Q: What are characteristic visual features that a bird expert might use for distinguishing a Common Nightingale in the field?
+A: There are several useful visual features characteristic visual features that a bird expert might use for distinguishing a Common Nightingale in the field:
+- landbird
+- plain warm brown upperparts
+- rusty-brown rump and tail
+- pale buffy-white underparts
+- breast and flanks washed sandy-buff
+- forecrown, crown and nape rusty-brown
+- blackish bill with with a pale pinkish base
+- dark brown eyes surrounded by narrow whitish eyering
+- legs and feet are flesh-coloured to brownish
+
+Q: What are characteristic visual features that a bird expert might use for distinguishing a {category_name} in the field?
+A: There are several useful visual features characteristic visual features that a bird expert might use for distinguishing a {category_name} in the field:
+-

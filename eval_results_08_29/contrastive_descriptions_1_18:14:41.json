@@ -1,0 +1,250 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 50.70422291755676,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 45.42253613471985,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/contrastive_descriptions_1"
+        ]
+    },
+    "ViT-B/32 top_k_misclassifications": [
+        [
+            "Chuck will Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Red cockaded Woodpecker",
+            "Misclassified as: American Three toed Woodpecker",
+            82.75862068965517
+        ],
+        [
+            "Louisiana Waterthrush",
+            "Misclassified as: Northern Waterthrush",
+            80.0
+        ],
+        [
+            "Anna Hummingbird",
+            "Misclassified as: Ruby throated Hummingbird",
+            76.66666666666667
+        ],
+        [
+            "Artic Tern",
+            "Misclassified as: Common Tern",
+            72.41379310344827
+        ],
+        [
+            "Common Tern",
+            "Misclassified as: Artic Tern",
+            30.0
+        ],
+        [
+            "Northern Waterthrush",
+            "Misclassified as: Louisiana Waterthrush",
+            26.666666666666668
+        ],
+        [
+            "Ruby throated Hummingbird",
+            "Misclassified as: Anna Hummingbird",
+            10.0
+        ],
+        [
+            "Nighthawk",
+            "Misclassified as: American Three toed Woodpecker",
+            6.666666666666667
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: American Three toed Woodpecker",
+            3.8461538461538463
+        ]
+    ],
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 53.16901206970215,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 49.64788854122162,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/contrastive_descriptions_1"
+        ]
+    },
+    "ViT-B/16 top_k_misclassifications": [
+        [
+            "Red cockaded Woodpecker",
+            "Misclassified as: American Three toed Woodpecker",
+            100.0
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Northern Waterthrush",
+            "Misclassified as: Louisiana Waterthrush",
+            70.0
+        ],
+        [
+            "Anna Hummingbird",
+            "Misclassified as: Ruby throated Hummingbird",
+            63.333333333333336
+        ],
+        [
+            "Common Tern",
+            "Misclassified as: Artic Tern",
+            50.0
+        ],
+        [
+            "Louisiana Waterthrush",
+            "Misclassified as: Northern Waterthrush",
+            30.0
+        ],
+        [
+            "Artic Tern",
+            "Misclassified as: Common Tern",
+            24.137931034482758
+        ],
+        [
+            "Ruby throated Hummingbird",
+            "Misclassified as: Anna Hummingbird",
+            16.666666666666668
+        ],
+        [
+            "Nighthawk",
+            "Misclassified as: American Three toed Woodpecker",
+            6.666666666666667
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: American Three toed Woodpecker",
+            3.8461538461538463
+        ]
+    ],
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 55.985915660858154,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 53.16901206970215,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/contrastive_descriptions_1"
+        ]
+    },
+    "ViT-L/14 top_k_misclassifications": [
+        [
+            "Chuck will Widow",
+            "Misclassified as: Nighthawk",
+            100.0
+        ],
+        [
+            "Red cockaded Woodpecker",
+            "Misclassified as: American Three toed Woodpecker",
+            86.20689655172414
+        ],
+        [
+            "Artic Tern",
+            "Misclassified as: Common Tern",
+            79.3103448275862
+        ],
+        [
+            "Louisiana Waterthrush",
+            "Misclassified as: Northern Waterthrush",
+            60.0
+        ],
+        [
+            "Northern Waterthrush",
+            "Misclassified as: Louisiana Waterthrush",
+            36.666666666666664
+        ],
+        [
+            "Anna Hummingbird",
+            "Misclassified as: Ruby throated Hummingbird",
+            33.333333333333336
+        ],
+        [
+            "Ruby throated Hummingbird",
+            "Misclassified as: Anna Hummingbird",
+            30.0
+        ],
+        [
+            "Common Tern",
+            "Misclassified as: Artic Tern",
+            10.0
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: Anna Hummingbird",
+            0.0
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: Ruby throated Hummingbird",
+            0.0
+        ]
+    ],
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 57.04225301742554,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 55.633801221847534,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/contrastive_descriptions_1"
+        ]
+    },
+    "ViT-L/14@336px top_k_misclassifications": [
+        [
+            "Chuck will Widow",
+            "Misclassified as: Nighthawk",
+            100.0
+        ],
+        [
+            "Artic Tern",
+            "Misclassified as: Common Tern",
+            86.20689655172414
+        ],
+        [
+            "Red cockaded Woodpecker",
+            "Misclassified as: American Three toed Woodpecker",
+            79.3103448275862
+        ],
+        [
+            "Louisiana Waterthrush",
+            "Misclassified as: Northern Waterthrush",
+            70.0
+        ],
+        [
+            "Ruby throated Hummingbird",
+            "Misclassified as: Anna Hummingbird",
+            40.0
+        ],
+        [
+            "Anna Hummingbird",
+            "Misclassified as: Ruby throated Hummingbird",
+            20.0
+        ],
+        [
+            "Northern Waterthrush",
+            "Misclassified as: Louisiana Waterthrush",
+            16.666666666666668
+        ],
+        [
+            "Common Tern",
+            "Misclassified as: Artic Tern",
+            13.333333333333334
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: Anna Hummingbird",
+            0.0
+        ],
+        [
+            "Chuck will Widow",
+            "Misclassified as: Ruby throated Hummingbird",
+            0.0
+        ]
+    ]
+}

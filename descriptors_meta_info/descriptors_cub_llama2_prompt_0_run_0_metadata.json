@@ -1,0 +1,5 @@
+{
+    "prompt": "Q: What are useful visual features for distinguishing a lemur in a photo?\nA: There are several useful visual features to tell there is a lemur in a photo:\n- four-limbed primate\n- black, grey, white, brown, or red-brown\n- wet and hairless nose with curved nostrils\n- long tail\n- large eyes\n- furry bodies\n- clawed hands and feet\n\nQ: What are useful visual features for distinguishing a television in a photo?\nA: There are several useful visual features to tell there is a television in a photo:\n- electronic device\n- black or grey\n- a large, rectangular screen\n- a stand or mount to support the screen\n- one or more speakers\n- a power cord\n- input ports for connecting to other devices\n- a remote control\n\nQ: What are useful features for distinguishing a {category_name} in a photo?\nA: There are several useful visual features to tell there is a {category_name} in a photo:\n-",
+    "answer_length": 50,
+    "top_k": 5
+}

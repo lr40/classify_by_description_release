@@ -1,0 +1,42 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 53.45184803009033,
+        "Total Description-based Top-5 Accuracy: ": 83.46565365791321,
+        "Total CLIP-Standard Top-1 Accuracy: ": 51.86399817466736,
+        "Total CLIP-Standard Top-5 Accuracy: ": 81.94684386253357,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt_0_run_0_permuted"
+        ]
+    },
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 57.0245087146759,
+        "Total Description-based Top-5 Accuracy: ": 86.22713088989258,
+        "Total CLIP-Standard Top-1 Accuracy: ": 55.90265989303589,
+        "Total CLIP-Standard Top-5 Accuracy: ": 83.89713764190674,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/descriptors_cub_llama2_prompt_0_run_0_permuted"
+        ]
+    },
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 62.6164972782135,
+        "Total Description-based Top-5 Accuracy: ": 91.56023263931274,
+        "Total CLIP-Standard Top-1 Accuracy: ": 62.87539005279541,
+        "Total CLIP-Standard Top-5 Accuracy: ": 90.64549803733826,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub_llama2_prompt_0_run_0_permuted"
+        ]
+    },
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 64.37694430351257,
+        "Total Description-based Top-5 Accuracy: ": 91.4394199848175,
+        "Total CLIP-Standard Top-1 Accuracy: ": 63.151538372039795,
+        "Total CLIP-Standard Top-5 Accuracy: ": 90.59371948242188,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/descriptors_cub_llama2_prompt_0_run_0_permuted"
+        ]
+    }
+}

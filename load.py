@@ -8,7 +8,7 @@ import pathlib
 
 from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
-from torchvision.datasets import ImageNet, ImageFolder
+from torchvision.datasets import ImageNet, StanfordCars, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
 from datasets import _transform, CUBDataset
 from collections import OrderedDict
@@ -16,11 +16,47 @@ import clip
 
 from loading_helpers import *
 
+import json, os
+import argparse
+
+def parse_training_params(parser):
+    parser.add_argument('--model_size', type=str, default='ViT-L/14@336px', help='Model size')
+    parser.add_argument('--descriptor_fname', type=str, help='Descriptors to load')
+    parser.add_argument('--already_complete_descriptors',type=int,default=0)
+    parser.add_argument('--eval_fname', type=str, help='Filename to save evaluation results')
+    parser.add_argument('--eval_dir', type=str, help='Dirname to save evaluation results')
+    parser.add_argument('--batch_size', type=int , default=64*10)
+    parser.add_argument('--xxx', type=int , default=0)
+    parser.add_argument('--device', type=str , default='cuda')
+    return parser
+
+parser = argparse.ArgumentParser()
+parser = parse_training_params(parser)
+opt = parser.parse_args()
+
+opt.xxx=bool(opt.xxx)
+
+if os.path.exists(f'/export/home/ru86qer/classify_by_description_release/{opt.eval_dir}') is False:
+    os.mkdir(f'/export/home/ru86qer/classify_by_description_release/{opt.eval_dir}')
+
+print(opt.eval_dir)
+
+eval_path = os.path.join(f'/export/home/ru86qer/classify_by_description_release/{opt.eval_dir}',opt.eval_fname+'.json')  # Hallo Test
+if os.path.exists(eval_path) is False:
+    with open(eval_path, 'w') as fp:
+        json.dump({}, fp, indent=4)
+
+
+print(opt)
 
 hparams = {}
 # hyperparameters
 
-hparams['model_size'] = "ViT-B/32" 
+hparams['eval_path'] = eval_path
+
+hparams['already_complete_descriptors'] = opt.already_complete_descriptors
+
+hparams['model_size'] = opt.model_size 
 # Options:
 # ['RN50',
 #  'RN101',
@@ -31,10 +67,10 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'cars'
 
-hparams['batch_size'] = 64*10
-hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
+hparams['batch_size'] = opt.batch_size
+hparams['device'] = opt.device if torch.cuda.is_available() else "cpu"
 hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend'
 
 hparams['apply_descriptor_modification'] = True
@@ -75,7 +111,11 @@ hparams['descriptor_fname'] = None
 
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
-CUB_DIR = '/export/home/ru86qer/datasets/cub_unmodified/CUB_200_2011/' # REPLACE THIS WITH YOUR OWN PATH
+CARS_DIR = '/export/scratch/ru86qer/datasets/'
+if opt.xxx:
+    CUB_DIR = '/export/scratch/ru86qer/datasets/cub_xxx_modified/CUB_200_2011' # REPLACE THIS WITH YOUR OWN PATH
+else:
+    CUB_DIR = '/export/scratch/ru86qer/datasets/cub_200_complete/CUB_200_2011'
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -100,16 +140,23 @@ if hparams['dataset'] == 'imagenet':
         classes_to_load = openai_imagenet_classes
         hparams['descriptor_fname'] = 'descriptors_imagenet'
         dataset.classes = classes_to_load
+    
+elif hparams['dataset'] == 'cars':
+    hparams['data_dir'] = pathlib.Path(CARS_DIR)
+    dataset = StanfordCars(root=hparams['data_dir'],download=True,transform=tfms)
+    classes_to_load = None
+    hparams['descriptor_fname'] = opt.descriptor_fname
+    hparams['after_text'] = hparams['label_after_text'] = '.'
 
 elif hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
+    classes_to_load = None#opt.classes_to_load
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
-    classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub'
+    hparams['descriptor_fname'] = opt.descriptor_fname
 
 
-hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
+hparams['descriptor_fname'] = './cars_descriptors/' + hparams['descriptor_fname']
     
 
 print("Creating descriptors...")
@@ -288,3 +335,34 @@ def predict_and_show_explanations(images, model, labels=None, description_encodi
     
     
     show_from_indices(torch.arange(images.shape[0]), images, labels, descr_predictions, clip_predictions, image_description_similarity=image_description_similarity, image_labels_similarity=image_labels_similarity)
+
+
+def evaluate_pred_vs_true_acc(pred_vs_ture_acc,label_to_classname,top_k=5):
+    predictions = pred_vs_ture_acc[0]
+    labels = pred_vs_ture_acc[1]
+
+    eval_dict = {str(label): [] for label in range(0,torch.max(labels).item()+1)}
+
+    for i in range(0, len(predictions)):
+        eval_dict[str(labels[i].item())].append(predictions[i].item())
+    
+    tmp_dict = {k:None for k in eval_dict.keys()}
+
+    for k, v in eval_dict.items():
+        eval_dict[k] = np.array(v)
+        counts = np.bincount(eval_dict[k],minlength=len(eval_dict.keys()))
+        percentages = 100.*counts/eval_dict[k].size
+        tmp_dict[k] = percentages.tolist()
+    
+    for k,v in tmp_dict.items():
+        index = int(k)
+        tmp_dict[k][index] = -1
+    
+    flattened = [(k, i, v) for k, values in tmp_dict.items() for i, v in enumerate(values)]
+
+    top_k_misclassifications = sorted(flattened, key=lambda x: x[2], reverse=True)[:top_k]
+
+    for i in range(0,len(top_k_misclassifications)):
+        top_k_misclassifications[i] = (label_to_classname[int(top_k_misclassifications[i][0])],"Misclassified as: "+label_to_classname[int(top_k_misclassifications[i][1])],top_k_misclassifications[i][2])
+    
+    return top_k_misclassifications

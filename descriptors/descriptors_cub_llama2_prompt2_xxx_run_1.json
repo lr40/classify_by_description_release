@@ -1,0 +1,31 @@
+{
+    "Sooty_Albatross": [
+        "large seabird",
+        "dark slate-grey upperparts with distinct darker flight feathers",
+        "pale greyish-brown underparts",
+        "dark greyish bill with dark greyish-black base",
+        "pale yellowish-brown legs and feet",
+        "distinctive black-tipped greyish-brown primaries",
+        "dark eyes"
+    ],
+    "Groove_billed_Ani": [
+        "large, powerful, long-necked bird",
+        "blackish-brown plumage with purple, blue, and green sheen",
+        "blackish bill with distinctive groove on upper mandible",
+        "bare red face and forehead",
+        "long, graduated tail with dark central stripe",
+        "dark brown legs and feet"
+    ],
+    "Painted_Bunting": [
+        "brightly coloured bird",
+        "blue-green and red-orange plumage",
+        "distinctive red patch on the forehead",
+        "black stripe over the eye",
+        "yellow-orange lower belly",
+        "dark brown wings and tail",
+        "pale yellow legs and feet",
+        "large size",
+        "long, pointed tail",
+        "slender bill"
+    ]
+}

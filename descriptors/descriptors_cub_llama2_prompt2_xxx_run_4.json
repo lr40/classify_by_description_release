@@ -1,0 +1,46 @@
+{
+    "Chuck_will_Widow": [
+        "medium-sized, slate-gray bird with a long, rounded tail",
+        "dark gray upperparts",
+        "pale gray underparts",
+        "distinctive black and white striped crown and nape",
+        "black bill with a distinctive downcurved culmen",
+        "dark brown eyes",
+        "black legs and feet",
+        "white wing patches visible in flight"
+    ],
+    "Nighthawk": [
+        "medium-sized bird",
+        "broad, rounded wings with long primary projection",
+        "long, pointed tail",
+        "dark grey-brown plumage with a distinctive white stripe running along the underside of the wing",
+        "white throat and breast patch",
+        "dark brown eyes surrounded by a white eyering",
+        "long, pointed bill",
+        "legs and feet are short and stout"
+    ],
+    "American_Three_toed_Woodpecker": [
+        "medium-sized woodpecker",
+        "black and white striped back",
+        "white wing patch",
+        "red cap",
+        "black throat and breast",
+        "white belly",
+        "black tail with white outer feathers",
+        "black bill with a distinctive red stripe",
+        "black legs and feet",
+        "distinctive black stripes on the head and neck"
+    ],
+    "Red_cockaded_Woodpecker": [
+        "small to medium-sized woodpecker",
+        "black and white striped back",
+        "white wing patches",
+        "red cap and nape",
+        "black throat and breast",
+        "white belly",
+        "black tail with white outer feathers",
+        "black bill with a distinctive red stripe",
+        "black legs and feet",
+        "distinctive red cockade on the head"
+    ]
+}

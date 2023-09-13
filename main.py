@@ -30,6 +30,8 @@ lang_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5).to(device)
 clip_accuracy_metric = torchmetrics.Accuracy().to(device)
 clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5).to(device)
 
+pred_vs_true_acc = torch.zeros(2,len(dataset)).to(device)
+
 for batch_number, batch in enumerate(tqdm(dataloader)):
     images, labels = batch
     
@@ -56,7 +58,7 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         dot_product_matrix = image_encodings @ v.T
         
         image_description_similarity[i] = dot_product_matrix
-        image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])
+        image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])  #Jedes i steht für eine Klasse, innerhalb dieser Klasse wird die Ähnlichkeit über die verschiedenen Deskriptoren aggregiert
         
         
     # create tensor of similarity means
@@ -68,8 +70,15 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
     lang_acc_top5 = lang_accuracy_metric_top5(cumulative_tensor.softmax(dim=-1), labels)
+
+    start_idx = batch_number * dataloader.batch_size
+    end_idx = start_idx + batch[1].size(0)  # inputs.size(0) is current batch size
     
+    # Populate the pred_vs_true_acc tensor
+    pred_vs_true_acc[0, start_idx:end_idx] = descr_predictions
+    pred_vs_true_acc[1, start_idx:end_idx] = labels
     
+top_k_misclassifications = evaluate_pred_vs_true_acc(pred_vs_true_acc.int(),label_to_classname,top_k=(30 if 30 <= len(label_to_classname) else len(label_to_classname)))   
 
 print("\n")
 
@@ -79,6 +88,18 @@ accuracy_logs["Total Description-based Top-5 Accuracy: "] = 100*lang_accuracy_me
 
 accuracy_logs["Total CLIP-Standard Top-1 Accuracy: "] = 100*clip_accuracy_metric.compute().item()
 accuracy_logs["Total CLIP-Standard Top-5 Accuracy: "] = 100*clip_accuracy_metric_top5.compute().item()
+
+accuracy_logs["info"] = hparams['model_size'],hparams['descriptor_fname']
+
+with open(eval_path, 'r') as fp:
+    data = json.load(fp)
+
+data[hparams['model_size']] = accuracy_logs
+data[hparams['model_size']+' top_k_misclassifications'] = top_k_misclassifications
+
+# print the accuracy logs into the json haparams['eval_path']
+with open(hparams['eval_path'], 'w') as fp:
+    json.dump(data, fp, indent=4)
 
 # print the dictionary
 print("\n")

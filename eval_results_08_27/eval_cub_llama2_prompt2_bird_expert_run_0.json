@@ -1,0 +1,650 @@
+{
+    "ViT-B/32": {
+        "Total Description-based Top-1 Accuracy: ": 0.0,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 0.0,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-B/32 top_k_misclassifications": [
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            90.0
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            79.3103448275862
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            76.66666666666667
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Nighthawk",
+            69.23076923076923
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            66.66666666666667
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            66.66666666666667
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            63.333333333333336
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Common_Tern",
+            62.06896551724138
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Nighthawk",
+            56.666666666666664
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Common_Tern",
+            53.333333333333336
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Caspian_Tern",
+            24.137931034482758
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            20.0
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            20.0
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Artic_Tern",
+            20.0
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Caspian_Tern",
+            20.0
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            13.333333333333334
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Brown_Creeper",
+            11.538461538461538
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            10.0
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Cactus_Wren",
+            10.0
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            10.0
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Cactus_Wren",
+            7.6923076923076925
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Artic_Tern",
+            6.896551724137931
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Northern_Flicker",
+            6.896551724137931
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            6.896551724137931
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Green_Violetear",
+            6.666666666666667
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Sage_Thrasher",
+            6.666666666666667
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Elegant_Tern",
+            6.666666666666667
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: Pomarine_Jaeger",
+            5.0
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: Clark_Nutcracker",
+            5.0
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Northern_Flicker",
+            3.8461538461538463
+        ]
+    ],
+    "ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 0.0,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 0.35211266949772835,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-B/16",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-B/16 top_k_misclassifications": [
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            95.0
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            89.65517241379311
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Nighthawk",
+            86.66666666666667
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Nighthawk",
+            73.07692307692308
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Artic_Tern",
+            72.41379310344827
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            50.0
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            46.666666666666664
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            46.666666666666664
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Artic_Tern",
+            46.666666666666664
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            43.333333333333336
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            36.666666666666664
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            36.666666666666664
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            26.666666666666668
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            23.333333333333332
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Common_Tern",
+            23.333333333333332
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Caspian_Tern",
+            20.0
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Common_Tern",
+            17.24137931034483
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            16.666666666666668
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            13.333333333333334
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Ovenbird",
+            13.333333333333334
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Winter_Wren",
+            11.538461538461538
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Brown_Creeper",
+            7.6923076923076925
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Cape_May_Warbler",
+            6.666666666666667
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Palm_Warbler",
+            6.666666666666667
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Bay_breasted_Warbler",
+            6.666666666666667
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: Brandt_Cormorant",
+            5.0
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Nelson_Sharp_tailed_Sparrow",
+            3.8461538461538463
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Carolina_Wren",
+            3.8461538461538463
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Caspian_Tern",
+            3.4482758620689653
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Elegant_Tern",
+            3.4482758620689653
+        ]
+    ],
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 0.0,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 0.0,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14 top_k_misclassifications": [
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Nighthawk",
+            93.33333333333333
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            90.0
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            86.20689655172414
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            76.66666666666667
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            70.0
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            63.333333333333336
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            60.0
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Common_Tern",
+            56.666666666666664
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Common_Tern",
+            44.827586206896555
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Artic_Tern",
+            34.48275862068966
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            33.333333333333336
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            30.0
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Caspian_Tern",
+            26.666666666666668
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            26.666666666666668
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            20.0
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Caspian_Tern",
+            17.24137931034483
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: Downy_Woodpecker",
+            10.0
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            6.896551724137931
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Downy_Woodpecker",
+            6.896551724137931
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            6.666666666666667
+        ],
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Mangrove_Cuckoo",
+            6.666666666666667
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Forsters_Tern",
+            6.666666666666667
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: House_Wren",
+            3.8461538461538463
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Black_Tern",
+            3.4482758620689653
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            3.3333333333333335
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Artic_Tern",
+            3.3333333333333335
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Black_Tern",
+            3.3333333333333335
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Elegant_Tern",
+            3.3333333333333335
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Seaside_Sparrow",
+            3.3333333333333335
+        ]
+    ],
+    "ViT-L/14@336px": {
+        "Total Description-based Top-1 Accuracy: ": 0.0,
+        "Total Description-based Top-5 Accuracy: ": -1,
+        "Total CLIP-Standard Top-1 Accuracy: ": 0.0,
+        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "info": [
+            "ViT-L/14@336px",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0"
+        ]
+    },
+    "ViT-L/14@336px top_k_misclassifications": [
+        [
+            "Groove_billed_Ani",
+            "Misclassified as: Nighthawk",
+            100.0
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: Nighthawk",
+            96.15384615384616
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            95.0
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            86.66666666666667
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            79.3103448275862
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            76.66666666666667
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Northern_Waterthrush",
+            73.33333333333333
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Common_Tern",
+            66.66666666666667
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Common_Tern",
+            65.51724137931035
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            53.333333333333336
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Anna_Hummingbird",
+            40.0
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Artic_Tern",
+            24.137931034482758
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            23.333333333333332
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Louisiana_Waterthrush",
+            16.666666666666668
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Red_cockaded_Woodpecker",
+            13.793103448275861
+        ],
+        [
+            "Laysan_Albatross",
+            "Misclassified as: Ruby_throated_Hummingbird",
+            13.333333333333334
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Forsters_Tern",
+            10.0
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Forsters_Tern",
+            6.896551724137931
+        ],
+        [
+            "Red_winged_Blackbird",
+            "Misclassified as: Downy_Woodpecker",
+            6.896551724137931
+        ],
+        [
+            "Sooty_Albatross",
+            "Misclassified as: Rufous_Hummingbird",
+            6.666666666666667
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Artic_Tern",
+            6.666666666666667
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Black_Tern",
+            6.666666666666667
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Elegant_Tern",
+            6.666666666666667
+        ],
+        [
+            "Brewer_Blackbird",
+            "Misclassified as: Pied_Kingfisher",
+            5.0
+        ],
+        [
+            "Black_footed_Albatross",
+            "Misclassified as: House_Wren",
+            3.8461538461538463
+        ],
+        [
+            "Crested_Auklet",
+            "Misclassified as: Black_Tern",
+            3.4482758620689653
+        ],
+        [
+            "Least_Auklet",
+            "Misclassified as: Caspian_Tern",
+            3.3333333333333335
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Seaside_Sparrow",
+            3.3333333333333335
+        ],
+        [
+            "Parakeet_Auklet",
+            "Misclassified as: Cape_May_Warbler",
+            3.3333333333333335
+        ],
+        [
+            "Rhinoceros_Auklet",
+            "Misclassified as: Spotted_Catbird",
+            3.3333333333333335
+        ]
+    ]
+}

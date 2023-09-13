@@ -1,0 +1,14 @@
+Please answer the following question using bullet points '-'. Behind each bullet point, a sentence shall be in a format that is shown in the following template:
+
+- While for A feature X looks like this, for B feature X looks like that.
+
+Ideally, feature X is a visual feature that is useful for distinguishing a {category_name_1} from a {category_name_0} in a photo.
+
+It is essential to use the keyword 'While' and the comma (',') because we need it for further processing. Please do not use any other commas in your sentences.
+
+When you have answered the question, please just stop the output.
+
+Now comes your part:
+Q: What are useful features for distinguishing a {category_name_1} from a {category_name_0} in a photo?
+A: There are several useful visual features to tell apart a {category_name_1} from a a {category_name_0} in a photo:
+- While 

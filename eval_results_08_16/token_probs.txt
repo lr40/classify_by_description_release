@@ -1,0 +1,67 @@
+Minimal average token probability: 
+Q: What are useful visual features for distinguishing a lemur in a photo?
+A: There are several useful visual features to tell there is a lemur in a photo:
+- four-limbed primate
+- black, grey, white, brown, or red-brown
+- wet and hairless nose with curved nostrils
+- long tail
+- large eyes
+- furry bodies
+- clawed hands and feet
+
+Q: What are useful visual features for distinguishing a television in a photo?
+A: There are several useful visual features to tell there is a television in a photo:
+- electronic device
+- black or grey
+- a large, rectangular screen
+- a stand or mount to support the screen
+- one or more speakers
+- a power cord
+- input ports for connecting to other devices
+- a remote control
+
+Q: What are useful features for distinguishing a Le_Conte_Sparrow in a photo?
+A: There are several useful visual features to tell there is a Le_Conte_Sparrow in a photo:
+- small, dark sparrow
+- distinctive black stripes on the head, neck, and back
+- white stripes on the face and chest
+- dark wings with a distinctive white patch on the secondaries
+- long, dark
+
+
+ ############################################################## 
+
+
+Maximum average token probability: 
+Q: What are useful visual features for distinguishing a lemur in a photo?
+A: There are several useful visual features to tell there is a lemur in a photo:
+- four-limbed primate
+- black, grey, white, brown, or red-brown
+- wet and hairless nose with curved nostrils
+- long tail
+- large eyes
+- furry bodies
+- clawed hands and feet
+
+Q: What are useful visual features for distinguishing a television in a photo?
+A: There are several useful visual features to tell there is a television in a photo:
+- electronic device
+- black or grey
+- a large, rectangular screen
+- a stand or mount to support the screen
+- one or more speakers
+- a power cord
+- input ports for connecting to other devices
+- a remote control
+
+Q: What are useful features for distinguishing a Glaucous_winged_Gull in a photo?
+A: There are several useful visual features to tell there is a Glaucous_winged_Gull in a photo:
+- large, white wing patches
+- dark grey back and wings
+- pinkish-gray legs and feet
+- black bill
+- pale yellow head and neck
+- dark eye patch
+- distinctive wing shape
+
+Q: What
