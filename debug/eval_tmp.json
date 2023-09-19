@@ -1,164 +1,164 @@
 {
     "ViT-B/32": {
-        "Total Description-based Top-1 Accuracy: ": 11.505402624607086,
-        "Total Description-based Top-5 Accuracy: ": -1,
-        "Total CLIP-Standard Top-1 Accuracy: ": 11.542239785194397,
-        "Total CLIP-Standard Top-5 Accuracy: ": -1,
+        "Total Description-based Top-1 Accuracy: ": 57.13408589363098,
+        "Total Description-based Top-5 Accuracy: ": 91.12229943275452,
+        "Total CLIP-Standard Top-1 Accuracy: ": 57.79715180397034,
+        "Total CLIP-Standard Top-5 Accuracy: ": 89.96807336807251,
         "info": [
             "ViT-B/32",
-            "./cars_descriptors/descriptors_cars_prompt0_run_0.json"
+            "./cars_descriptors/descriptors_cars_prompt0_run_1.json"
         ]
     },
     "ViT-B/32 top_k_misclassifications": [
         [
-            "Dodge Dakota Club Cab 2007",
-            "Misclassified as: Dodge Journey SUV 2012",
-            100.0
-        ],
-        [
-            "Suzuki SX4 Sedan 2012",
-            "Misclassified as: Tesla Model S Sedan 2012",
-            100.0
-        ],
-        [
-            "Volvo XC90 SUV 2007",
-            "Misclassified as: smart fortwo Convertible 2012",
-            100.0
-        ],
-        [
-            "Lamborghini Diablo Coupe 2001",
+            "Lamborghini Gallardo LP 570-4 Superleggera 2012",
             "Misclassified as: Lamborghini Aventador Coupe 2012",
-            97.72727272727273
+            83.33333333333333
         ],
         [
-            "Mercedes-Benz 300-Class Convertible 1993",
-            "Misclassified as: McLaren MP4-12C Coupe 2012",
-            97.72727272727273
+            "BMW X5 SUV 2007",
+            "Misclassified as: BMW X3 SUV 2012",
+            80.95238095238095
         ],
         [
-            "Volkswagen Golf Hatchback 1991",
-            "Misclassified as: Volkswagen Beetle Hatchback 2012",
-            97.67441860465117
+            "Dodge Caliber Wagon 2007",
+            "Misclassified as: Dodge Caliber Wagon 2012",
+            76.19047619047619
         ],
         [
-            "Nissan 240SX Coupe 1998",
-            "Misclassified as: Nissan Leaf Hatchback 2012",
-            97.61904761904762
-        ],
-        [
-            "Chrysler Crossfire Convertible 2008",
+            "Ram C/V Cargo Van Minivan 2012",
             "Misclassified as: Chrysler Town and Country Minivan 2012",
-            97.36842105263158
+            68.29268292682927
+        ],
+        [
+            "Dodge Ram Pickup 3500 Crew Cab 2010",
+            "Misclassified as: Dodge Ram Pickup 3500 Quad Cab 2009",
+            65.11627906976744
+        ],
+        [
+            "Chevrolet Impala Sedan 2007",
+            "Misclassified as: Chevrolet Malibu Sedan 2007",
+            62.7906976744186
+        ],
+        [
+            "Hyundai Elantra Sedan 2007",
+            "Misclassified as: Hyundai Accent Sedan 2012",
+            61.904761904761905
+        ],
+        [
+            "HUMMER H2 SUT Crew Cab 2009",
+            "Misclassified as: AM General Hummer SUV 2000",
+            61.36363636363637
+        ],
+        [
+            "Chevrolet Corvette Ron Fellows Edition Z06 2007",
+            "Misclassified as: Chevrolet Corvette Convertible 2012",
+            60.526315789473685
         ],
         [
             "Ferrari 458 Italia Coupe 2012",
-            "Misclassified as: FIAT 500 Convertible 2012",
-            97.05882352941177
+            "Misclassified as: Ferrari 458 Italia Convertible 2012",
+            60.46511627906977
         ],
         [
-            "Acura ZDX Hatchback 2012",
-            "Misclassified as: Acura Integra Type R 2001",
-            95.55555555555556
+            "Hyundai Azera Sedan 2012",
+            "Misclassified as: Hyundai Sonata Hybrid Sedan 2012",
+            59.523809523809526
         ],
         [
-            "BMW M6 Convertible 2010",
-            "Misclassified as: Bentley Arnage Sedan 2009",
-            94.87179487179488
+            "Mercedes-Benz E-Class Sedan 2012",
+            "Misclassified as: Mercedes-Benz S-Class Sedan 2012",
+            59.09090909090909
         ],
         [
-            "Tesla Model S Sedan 2012",
-            "Misclassified as: Toyota Sequoia SUV 2012",
-            94.87179487179488
+            "Chevrolet Silverado 1500 Regular Cab 2012",
+            "Misclassified as: Chevrolet Silverado 2500HD Regular Cab 2012",
+            56.81818181818182
         ],
         [
-            "Volkswagen Beetle Hatchback 2012",
-            "Misclassified as: Volkswagen Golf Hatchback 1991",
-            93.47826086956522
+            "Audi 100 Sedan 1994",
+            "Misclassified as: Audi V8 Sedan 1994",
+            56.09756097560975
         ],
         [
-            "Lamborghini Reventon Coupe 2008",
-            "Misclassified as: Lamborghini Diablo Coupe 2001",
-            93.33333333333333
+            "GMC Savana Van 2012",
+            "Misclassified as: Chevrolet Express Van 2007",
+            55.88235294117647
         ],
         [
-            "Jeep Grand Cherokee SUV 2012",
-            "Misclassified as: Jeep Wrangler SUV 2012",
-            93.02325581395348
+            "Ford E-Series Wagon Van 2012",
+            "Misclassified as: Chevrolet Express Van 2007",
+            55.26315789473684
         ],
         [
-            "Toyota Sequoia SUV 2012",
-            "Misclassified as: Volkswagen Golf Hatchback 2012",
-            93.02325581395348
-        ],
-        [
-            "Cadillac Escalade EXT Crew Cab 2007",
-            "Misclassified as: Cadillac SRX SUV 2012",
-            92.6829268292683
-        ],
-        [
-            "Hyundai Accent Sedan 2012",
-            "Misclassified as: Hyundai Veloster Hatchback 2012",
-            92.6829268292683
-        ],
-        [
-            "Dodge Journey SUV 2012",
-            "Misclassified as: Dodge Challenger SRT8 2011",
-            92.3076923076923
-        ],
-        [
-            "Lamborghini Aventador Coupe 2012",
-            "Misclassified as: Lamborghini Reventon Coupe 2008",
-            91.66666666666667
-        ],
-        [
-            "Ford Fiesta Sedan 2012",
-            "Misclassified as: Ford GT Coupe 2006",
-            91.30434782608695
-        ],
-        [
-            "Ford F-150 Regular Cab 2007",
+            "Land Rover LR2 SUV 2012",
             "Misclassified as: Ford Expedition EL SUV 2009",
-            91.11111111111111
+            53.48837209302326
         ],
         [
-            "Dodge Magnum Wagon 2008",
-            "Misclassified as: Dodge Durango SUV 2012",
-            90.9090909090909
+            "BMW ActiveHybrid 5 Sedan 2012",
+            "Misclassified as: BMW 3 Series Sedan 2012",
+            52.94117647058823
+        ],
+        [
+            "Audi S5 Coupe 2012",
+            "Misclassified as: Audi A5 Coupe 2012",
+            51.16279069767442
+        ],
+        [
+            "Acura TL Type-S 2008",
+            "Misclassified as: Acura TL Sedan 2012",
+            50.0
+        ],
+        [
+            "Aston Martin Virage Coupe 2012",
+            "Misclassified as: Aston Martin V8 Vantage Coupe 2012",
+            50.0
+        ],
+        [
+            "Chevrolet Express Cargo Van 2007",
+            "Misclassified as: Chevrolet Express Van 2007",
+            50.0
         ],
         [
             "Chrysler Aspen SUV 2009",
-            "Misclassified as: Chrysler Sebring Convertible 2010",
-            90.2439024390244
+            "Misclassified as: Ford Expedition EL SUV 2009",
+            50.0
         ],
         [
-            "Ferrari 458 Italia Convertible 2012",
-            "Misclassified as: FIAT 500 Abarth 2012",
-            89.28571428571429
+            "Audi S4 Sedan 2007",
+            "Misclassified as: Audi S4 Sedan 2012",
+            48.888888888888886
         ],
         [
-            "Mercedes-Benz S-Class Sedan 2012",
-            "Misclassified as: Mercedes-Benz SL-Class Coupe 2009",
-            89.1891891891892
+            "BMW M6 Convertible 2010",
+            "Misclassified as: BMW 6 Series Convertible 2007",
+            48.78048780487805
         ],
         [
-            "Chrysler Town and Country Minivan 2012",
-            "Misclassified as: Chrysler PT Cruiser Convertible 2008",
-            88.88888888888889
+            "Audi RS 4 Convertible 2008",
+            "Misclassified as: Audi S5 Convertible 2012",
+            48.648648648648646
         ],
         [
-            "GMC Yukon Hybrid SUV 2012",
-            "Misclassified as: Geo Metro Convertible 1993",
-            88.88888888888889
+            "Chevrolet Silverado 1500 Extended Cab 2012",
+            "Misclassified as: Chevrolet Silverado 2500HD Regular Cab 2012",
+            45.45454545454545
         ],
         [
-            "Chrysler Sebring Convertible 2010",
-            "Misclassified as: Chrysler Crossfire Convertible 2008",
-            88.37209302325581
+            "Hyundai Sonata Sedan 2012",
+            "Misclassified as: Hyundai Sonata Hybrid Sedan 2012",
+            45.0
         ],
         [
-            "Honda Odyssey Minivan 2007",
-            "Misclassified as: Honda Odyssey Minivan 2012",
-            88.0952380952381
+            "Bentley Continental Flying Spur Sedan 2007",
+            "Misclassified as: Bentley Mulsanne Sedan 2011",
+            44.44444444444444
+        ],
+        [
+            "Daewoo Nubira Wagon 2002",
+            "Misclassified as: Suzuki Aerio Sedan 2007",
+            44.44444444444444
         ]
     ]
 }

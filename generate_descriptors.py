@@ -128,7 +128,7 @@ def obtain_descriptors_and_save(savename, class_list, prompt,answer_length, top_
 #read the cub classes from /export/home/ru86qer/datasets/cub_unmodified/CUB_200_2011
 def read_classes():
     classes = []
-    with open('/export/scratch/ru86qer/datasets/cars196/classes.txt', 'r') as f:
+    with open('/export/scratch/ru86qer/datasets/stanford_cars/classes.txt', 'r') as f:
         #classes = [line.strip().split(' ')[1].split('.')[1] for line in f.readlines()]
         classes = [line.strip() for line in f.readlines()]
     return classes
@@ -155,9 +155,5 @@ for i in range(0, 10000):
         break
 
 obtain_descriptors_and_save(os.path.join(path,savename), classes, prompt, answer_length, top_k, batch_size, use_generate=False, use_pipeline=True, use_llama2=True)
-
-
-
-
 
 

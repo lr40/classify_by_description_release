@@ -1,6 +1,6 @@
 #!/bin/bash
 batch_sizes=($((64*10)) $((64*10)) $((64*5)) $((64*5)))
-descriptor_fname=descriptors_cars_prompt0_run_0.json
+descriptor_fname=descriptors_cars_prompt0_run_1.json
 clocktime=$(date +"%H:%M:%S")
 eval_fname="${descriptor_fname/descriptors/eval}_$clocktime"
 current_date=$(date +"%m_%d")

@@ -143,7 +143,7 @@ if hparams['dataset'] == 'imagenet':
     
 elif hparams['dataset'] == 'cars':
     hparams['data_dir'] = pathlib.Path(CARS_DIR)
-    dataset = StanfordCars(root=hparams['data_dir'],download=True,transform=tfms)
+    dataset = StanfordCars(root=hparams['data_dir'],split="train",download=True,transform=tfms)
     classes_to_load = None
     hparams['descriptor_fname'] = opt.descriptor_fname
     hparams['after_text'] = hparams['label_after_text'] = '.'
