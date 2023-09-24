@@ -1,6 +1,7 @@
 from load import *
 import torchmetrics
 from tqdm import tqdm
+from LACLIP_backbone import models
 
 
 seed_everything(hparams['seed'])
@@ -12,9 +13,56 @@ print("Loading model...")
 
 device = torch.device(hparams['device'])
 # load model
-model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
-model.eval()
-model.requires_grad_(False)
+LACLIP=True
+if not LACLIP:
+    model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
+    model.eval()
+    model.requires_grad_(False)
+elif LACLIP:
+    LACLIP_PATH_REDCAP = "/export/scratch/ru86qer/model_checkpoints/redcaps_laclip/redcaps_laclip.pt"
+    LACLIP_PATH_LAION = "/export/scratch/ru86qer/model_checkpoints/laion400m_laclip/laion400m_laclip.pt"
+    LACLIP_PATH = LACLIP_PATH_LAION
+    if "laion" not in LACLIP_PATH:
+        ckpt = torch.load(LACLIP_PATH, map_location=device)
+
+        state_dict = OrderedDict()
+        for k, v in ckpt['state_dict'].items():
+            state_dict[k.replace('module.', '')] = v
+        
+        model = getattr(models, "CLIP_VITB16")(rand_embed=False)
+
+        model.eval()
+        model.requires_grad_(False)
+        
+        model.cuda()
+        model.load_state_dict(state_dict, strict=True)
+
+        cudnn.benchmark = True
+    if "laion" in LACLIP_PATH:
+        model, preprocess_train, preprocess_val = create_model_and_transforms(
+            "ViT-B-32",
+            '',
+            precision='amp',
+            device='cuda',
+            jit=False,
+            force_quick_gelu=False,
+            force_custom_text=False,
+            force_patch_dropout=None,
+            force_image_size=224,
+            pretrained_image=False,
+            image_mean=None,
+            image_std=None,
+            aug_cfg={},
+            output_dict=True,
+        )
+        checkpoint = pt_load(LACLIP_PATH, map_location=device)
+        sd = checkpoint["state_dict"]
+        model.load_state_dict(sd)
+        model = model.to(device)
+        model.eval()
+        model.requires_grad_(False)
+        cudnn.benchmark = True
+
 
 print("Encoding descriptions...")
 
@@ -22,13 +70,15 @@ description_encodings = compute_description_encodings(model)
 
 label_encodings = compute_label_encodings(model)
 
+num_classes = len(label_to_classname)
+
 
 print("Evaluating...")
-lang_accuracy_metric = torchmetrics.Accuracy().to(device)
-lang_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5).to(device)
+lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass",num_classes=num_classes).to(device)
+lang_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass",top_k=5,num_classes=num_classes).to(device)
 
-clip_accuracy_metric = torchmetrics.Accuracy().to(device)
-clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5).to(device)
+clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass",num_classes=num_classes).to(device)
+clip_accuracy_metric_top5 = torchmetrics.Accuracy(task="multiclass",top_k=5,num_classes=num_classes).to(device)
 
 pred_vs_true_acc = torch.zeros(2,len(dataset)).to(device)
 

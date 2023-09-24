@@ -6,10 +6,15 @@ from torch.nn import functional as F
 from descriptor_strings import *  # label_to_classname, wordify, modify_descriptor,
 import pathlib
 
+from open_clip import create_model_and_transforms
+from training.file_utils import pt_load
+
+import torch.backends.cudnn as cudnn
+
 from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, StanfordCars, ImageFolder
-from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
+#from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
 from datasets import _transform, CUBDataset
 from collections import OrderedDict
 import clip
@@ -67,7 +72,7 @@ hparams['model_size'] = opt.model_size
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cars'
+hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = opt.batch_size
 hparams['device'] = opt.device if torch.cuda.is_available() else "cpu"
