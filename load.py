@@ -161,7 +161,7 @@ elif hparams['dataset'] == 'cub':
     hparams['descriptor_fname'] = opt.descriptor_fname
 
 
-hparams['descriptor_fname'] = './cars_descriptors/' + hparams['descriptor_fname']
+hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
     
 
 print("Creating descriptors...")

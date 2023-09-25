@@ -21,7 +21,7 @@ if not LACLIP:
 elif LACLIP:
     LACLIP_PATH_REDCAP = "/export/scratch/ru86qer/model_checkpoints/redcaps_laclip/redcaps_laclip.pt"
     LACLIP_PATH_LAION = "/export/scratch/ru86qer/model_checkpoints/laion400m_laclip/laion400m_laclip.pt"
-    LACLIP_PATH = LACLIP_PATH_LAION
+    LACLIP_PATH = LACLIP_PATH_REDCAP
     if "laion" not in LACLIP_PATH:
         ckpt = torch.load(LACLIP_PATH, map_location=device)
 

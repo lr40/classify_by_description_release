@@ -322,5 +322,177 @@
             "Misclassified as: Bentley Continental GT Coupe 2007",
             25.714285714285715
         ]
-    ]
+    ],
+    "ViT-B/32, laion": {
+        "Total Description-based Top-1 Accuracy: ": 63.63479495048523,
+        "Total Description-based Top-5 Accuracy: ": 89.60993885993958,
+        "Total CLIP-Standard Top-1 Accuracy: ": 63.66931200027466,
+        "Total CLIP-Standard Top-5 Accuracy: ": 88.95409107208252,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0.json"
+        ]
+    },
+    "ViT-B/32 top_k_misclassifications": [
+        [
+            "Great_Grey_Shrike",
+            "Misclassified as: Loggerhead_Shrike",
+            76.66666666666667
+        ],
+        [
+            "Heermann_Gull",
+            "Misclassified as: California_Gull",
+            66.66666666666667
+        ],
+        [
+            "Fish_Crow",
+            "Misclassified as: American_Crow",
+            63.333333333333336
+        ],
+        [
+            "Western_Gull",
+            "Misclassified as: California_Gull",
+            63.333333333333336
+        ],
+        [
+            "Red_cockaded_Woodpecker",
+            "Misclassified as: American_Three_toed_Woodpecker",
+            62.06896551724138
+        ],
+        [
+            "Horned_Grebe",
+            "Misclassified as: Western_Grebe",
+            56.666666666666664
+        ],
+        [
+            "Common_Raven",
+            "Misclassified as: American_Crow",
+            56.666666666666664
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: American_Pipit",
+            56.666666666666664
+        ],
+        [
+            "Field_Sparrow",
+            "Misclassified as: Henslow_Sparrow",
+            51.724137931034484
+        ],
+        [
+            "White_breasted_Kingfisher",
+            "Misclassified as: Green_Kingfisher",
+            50.0
+        ],
+        [
+            "Pelagic_Cormorant",
+            "Misclassified as: Brandt_Cormorant",
+            46.666666666666664
+        ],
+        [
+            "Grasshopper_Sparrow",
+            "Misclassified as: Vesper_Sparrow",
+            46.666666666666664
+        ],
+        [
+            "Caspian_Tern",
+            "Misclassified as: Common_Tern",
+            46.666666666666664
+        ],
+        [
+            "Gray_Catbird",
+            "Misclassified as: Spotted_Catbird",
+            44.827586206896555
+        ],
+        [
+            "Yellow_billed_Cuckoo",
+            "Misclassified as: Black_billed_Cuckoo",
+            44.827586206896555
+        ],
+        [
+            "Glaucous_winged_Gull",
+            "Misclassified as: California_Gull",
+            41.37931034482759
+        ],
+        [
+            "Orchard_Oriole",
+            "Misclassified as: Eastern_Towhee",
+            41.37931034482759
+        ],
+        [
+            "Golden_winged_Warbler",
+            "Misclassified as: Canada_Warbler",
+            41.37931034482759
+        ],
+        [
+            "Boat_tailed_Grackle",
+            "Misclassified as: Brewer_Blackbird",
+            40.0
+        ],
+        [
+            "Eared_Grebe",
+            "Misclassified as: Western_Grebe",
+            40.0
+        ],
+        [
+            "Nashville_Warbler",
+            "Misclassified as: Orange_crowned_Warbler",
+            40.0
+        ],
+        [
+            "Red_legged_Kittiwake",
+            "Misclassified as: Northern_Fulmar",
+            39.130434782608695
+        ],
+        [
+            "Clay_colored_Sparrow",
+            "Misclassified as: Vesper_Sparrow",
+            37.93103448275862
+        ],
+        [
+            "Artic_Tern",
+            "Misclassified as: Elegant_Tern",
+            37.93103448275862
+        ],
+        [
+            "Bronzed_Cowbird",
+            "Misclassified as: Brewer_Blackbird",
+            36.666666666666664
+        ],
+        [
+            "Herring_Gull",
+            "Misclassified as: California_Gull",
+            36.666666666666664
+        ],
+        [
+            "Forsters_Tern",
+            "Misclassified as: Common_Tern",
+            36.666666666666664
+        ],
+        [
+            "Slaty_backed_Gull",
+            "Misclassified as: California_Gull",
+            35.0
+        ],
+        [
+            "Slaty_backed_Gull",
+            "Misclassified as: Western_Gull",
+            35.0
+        ],
+        [
+            "Baird_Sparrow",
+            "Misclassified as: Vesper_Sparrow",
+            35.0
+        ]
+    ],
+    "Redcaps, ViT-B/16": {
+        "Total Description-based Top-1 Accuracy: ": 41.97445511817932,
+        "Total Description-based Top-5 Accuracy: ": 73.54159355163574,
+        "Total CLIP-Standard Top-1 Accuracy: ": 41.04245901107788,
+        "Total CLIP-Standard Top-5 Accuracy: ": 72.17811346054077,
+        "info": [
+            "ViT-B/32",
+            "./descriptors/descriptors_cub_llama2_prompt2_bird_expert_run_0.json"
+        ]
+    }
 }
