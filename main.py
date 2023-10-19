@@ -12,8 +12,7 @@ dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=16, pin_memory=Tr
 print("Loading model...")
 
 device = torch.device(hparams['device'])
-# load model
-LACLIP=True
+# load model LACLIP=True
 if not LACLIP:
     model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
     model.eval()
