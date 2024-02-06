@@ -12,7 +12,8 @@ dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=16, pin_memory=Tr
 print("Loading model...")
 
 device = torch.device(hparams['device'])
-# load model LACLIP=True
+# load model 
+LACLIP=True
 if not LACLIP:
     model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
     model.eval()
@@ -20,7 +21,7 @@ if not LACLIP:
 elif LACLIP:
     LACLIP_PATH_REDCAP = "/export/scratch/ru86qer/model_checkpoints/redcaps_laclip/redcaps_laclip.pt"
     LACLIP_PATH_LAION = "/export/scratch/ru86qer/model_checkpoints/laion400m_laclip/laion400m_laclip.pt"
-    LACLIP_PATH = LACLIP_PATH_REDCAP
+    LACLIP_PATH = LACLIP_PATH_LAION
     if "laion" not in LACLIP_PATH:
         ckpt = torch.load(LACLIP_PATH, map_location=device)
 

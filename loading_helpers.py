@@ -91,8 +91,6 @@ def seed_everything(seed: int):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = True
- 
-import matplotlib.pyplot as plt
 
 stats = (0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.26130258, 0.27577711)
 
@@ -101,10 +99,3 @@ def denormalize(images, means=(0.485, 0.456, 0.406), stds=(0.229, 0.224, 0.225))
     stds = torch.tensor(stds).reshape(1, 3, 1, 1)
     return images * stds + means
   
-def show_single_image(image):
-    fig, ax = plt.subplots(figsize=(12, 12))
-    ax.set_xticks([]); ax.set_yticks([])
-    denorm_image = denormalize(image.unsqueeze(0).cpu(), *stats)
-    ax.imshow(denorm_image.squeeze().permute(1, 2, 0).clamp(0,1))
-    
-    plt.show()

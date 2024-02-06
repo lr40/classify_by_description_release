@@ -1,0 +1,164 @@
+{
+    "ViT-L/14": {
+        "Total Description-based Top-1 Accuracy: ": 42.64756739139557,
+        "Total Description-based Top-5 Accuracy: ": 73.52433800697327,
+        "Total CLIP-Standard Top-1 Accuracy: ": 41.62927269935608,
+        "Total CLIP-Standard Top-5 Accuracy: ": 72.59233593940735,
+        "info": [
+            "ViT-L/14",
+            "./descriptors/descriptors_cub.json"
+        ]
+    },
+    "ViT-L/14 top_k_misclassifications": [
+        [
+            "Horned Grebe",
+            "Misclassified as: Western Grebe",
+            70.0
+        ],
+        [
+            "Caspian Tern",
+            "Misclassified as: Common Tern",
+            63.333333333333336
+        ],
+        [
+            "Forsters Tern",
+            "Misclassified as: Common Tern",
+            63.333333333333336
+        ],
+        [
+            "Gray Catbird",
+            "Misclassified as: Spotted Catbird",
+            62.06896551724138
+        ],
+        [
+            "Fish Crow",
+            "Misclassified as: American Crow",
+            60.0
+        ],
+        [
+            "Heermann Gull",
+            "Misclassified as: California Gull",
+            60.0
+        ],
+        [
+            "Common Raven",
+            "Misclassified as: American Crow",
+            60.0
+        ],
+        [
+            "Geococcyx",
+            "Misclassified as: American Pipit",
+            60.0
+        ],
+        [
+            "Great-Grey Shrike",
+            "Misclassified as: Loggerhead Shrike",
+            60.0
+        ],
+        [
+            "Western Gull",
+            "Misclassified as: California Gull",
+            50.0
+        ],
+        [
+            "Red-cockaded Woodpecker",
+            "Misclassified as: American-Three-toed Woodpecker",
+            48.275862068965516
+        ],
+        [
+            "Warbling Vireo",
+            "Misclassified as: Swainson Warbler",
+            46.666666666666664
+        ],
+        [
+            "Orchard Oriole",
+            "Misclassified as: Eastern Towhee",
+            44.827586206896555
+        ],
+        [
+            "Mangrove Cuckoo",
+            "Misclassified as: Yellow-billed Cuckoo",
+            43.47826086956522
+        ],
+        [
+            "Pelagic Cormorant",
+            "Misclassified as: Brandt Cormorant",
+            43.333333333333336
+        ],
+        [
+            "Boat-tailed Grackle",
+            "Misclassified as: Brewer Blackbird",
+            43.333333333333336
+        ],
+        [
+            "White-breasted Kingfisher",
+            "Misclassified as: Green Kingfisher",
+            43.333333333333336
+        ],
+        [
+            "Grasshopper Sparrow",
+            "Misclassified as: Vesper Sparrow",
+            43.333333333333336
+        ],
+        [
+            "Glaucous-winged Gull",
+            "Misclassified as: Western Gull",
+            41.37931034482759
+        ],
+        [
+            "Golden-winged Warbler",
+            "Misclassified as: Canada Warbler",
+            41.37931034482759
+        ],
+        [
+            "Eared Grebe",
+            "Misclassified as: Western Grebe",
+            40.0
+        ],
+        [
+            "Ivory Gull",
+            "Misclassified as: Ring-billed Gull",
+            40.0
+        ],
+        [
+            "Yellow-billed Cuckoo",
+            "Misclassified as: Black-billed Cuckoo",
+            37.93103448275862
+        ],
+        [
+            "Glaucous-winged Gull",
+            "Misclassified as: California Gull",
+            37.93103448275862
+        ],
+        [
+            "Red-cockaded Woodpecker",
+            "Misclassified as: Downy Woodpecker",
+            37.93103448275862
+        ],
+        [
+            "Bronzed Cowbird",
+            "Misclassified as: Brewer Blackbird",
+            36.666666666666664
+        ],
+        [
+            "Cliff Swallow",
+            "Misclassified as: Barn Swallow",
+            36.666666666666664
+        ],
+        [
+            "Nashville Warbler",
+            "Misclassified as: Orange-crowned Warbler",
+            36.666666666666664
+        ],
+        [
+            "Slaty-backed Gull",
+            "Misclassified as: Western Gull",
+            35.0
+        ],
+        [
+            "Red-legged Kittiwake",
+            "Misclassified as: Northern Fulmar",
+            34.78260869565217
+        ]
+    ]
+}

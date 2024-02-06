@@ -25,12 +25,12 @@ import json, os
 import argparse
 
 def parse_training_params(parser):
-    parser.add_argument('--model_size', type=str, default='ViT-L/14@336px', help='Model size')
-    parser.add_argument('--descriptor_fname', type=str, help='Descriptors to load')
+    parser.add_argument('--model_size', type=str, default='ViT-L/14', help='Model size')
+    parser.add_argument('--descriptor_fname', type=str, default="descriptors_cub.json", help='Descriptors to load')
     parser.add_argument('--already_complete_descriptors',type=int,default=0)
-    parser.add_argument('--eval_fname', type=str, help='Filename to save evaluation results')
+    parser.add_argument('--eval_fname', type=str, default="debug", help='Filename to save evaluation results')
     parser.add_argument('--eval_dir', type=str, help='Dirname to save evaluation results')
-    parser.add_argument('--batch_size', type=int , default=64*10)
+    parser.add_argument('--batch_size', type=int , default=64*5)
     parser.add_argument('--xxx', type=int , default=0)
     parser.add_argument('--device', type=str , default='cuda')
     return parser
